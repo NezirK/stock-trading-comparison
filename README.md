@@ -1,16 +1,57 @@
-# React + Vite
+# Stock Trading Comparison Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A structured and transparent comparison platform for leading U.S. stock trading brokers.
 
-Currently, two official plugins are available:
+## Live Demo
+[View Live Site](https://your-vercel-link.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+This application provides a clear comparison of major U.S. trading platforms, focusing on:
 
-## React Compiler
+- Commission structure
+- Minimum deposit requirements
+- Fractional share availability
+- Crypto support
+- Investor suitability
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal is to simplify decision-making through structured data presentation.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React
+- Vite
+- CSS
+- Vercel (Deployment)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Documentation
+For detailed architecture, technical decisions, and maintenance strategy, see:
+
+`PROJECT_DOCUMENTATION.md`
+
+## Local Development
+
+Clone the repository:
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/NezirK/stock-trading-comparison.git
+```
+
+Navigate into the project directory:
+
+```bash
+cd stock-trading-comparison
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
